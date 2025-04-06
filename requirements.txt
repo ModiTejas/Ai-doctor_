@@ -1,0 +1,10 @@
+streamlit
+openai
+python-dotenv
+PyMuPDF
+pdfplumber
+PyPDF2
+pytesseract
+langchain_groq
+google-generativeai
+python-dotenv
