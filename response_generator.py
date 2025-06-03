@@ -14,7 +14,7 @@ GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 GENAI_API_KEY = os.getenv("GENAI_API_KEY")
 
 # Initialize GROQ LLMs
-llm_llama = ChatGroq(groq_api_key=GROQ_API_KEY, model_name="Llama-3.3-70B-SpecDec")
+llm_llama = ChatGroq(groq_api_key=GROQ_API_KEY, model_name="llama-3.3-70b-versatile")
 llm_deepseek = ChatGroq(groq_api_key=GROQ_API_KEY, model_name="deepseek-r1-distill-llama-70b")
 
 # Initialize Gemini LLM
